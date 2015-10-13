@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C87BB7311BC927210034AB58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87BB7301BC927210034AB58 /* AppDelegate.swift */; };
+		C87BB7361BC927210034AB58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C87BB7341BC927210034AB58 /* Main.storyboard */; };
+		C87BB7381BC927210034AB58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C87BB7371BC927210034AB58 /* Assets.xcassets */; };
+		C87BB73B1BC927210034AB58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C87BB7391BC927210034AB58 /* LaunchScreen.storyboard */; };
+		C87BB7461BC927210034AB58 /* ProxyChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87BB7451BC927210034AB58 /* ProxyChatTests.swift */; };
+		C87BB7511BC927210034AB58 /* ProxyChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87BB7501BC927210034AB58 /* ProxyChatUITests.swift */; };
+		C87BB75F1BC927AF0034AB58 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C87BB75E1BC927AF0034AB58 /* MultipeerConnectivity.framework */; };
+		C87BB7651BC9299F0034AB58 /* MainMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87BB7641BC9299F0034AB58 /* MainMessageViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C87BB76F1BC943EB0034AB58 /* ALKeyboardObservingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87BB76A1BC943EB0034AB58 /* ALKeyboardObservingView.swift */; settings = {ASSET_TAGS = (); }; };
+		C87BB7701BC943EB0034AB58 /* ALTextInputBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87BB76B1BC943EB0034AB58 /* ALTextInputBar.swift */; settings = {ASSET_TAGS = (); }; };
+		C87BB7711BC943EB0034AB58 /* ALTextInputBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87BB76C1BC943EB0034AB58 /* ALTextInputBarDelegate.swift */; settings = {ASSET_TAGS = (); }; };
+		C87BB7721BC943EB0034AB58 /* ALTextInputUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87BB76D1BC943EB0034AB58 /* ALTextInputUtilities.swift */; settings = {ASSET_TAGS = (); }; };
+		C87BB7731BC943EB0034AB58 /* ALTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87BB76E1BC943EB0034AB58 /* ALTextView.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C87BB7421BC927210034AB58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C87BB7251BC927210034AB58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C87BB72C1BC927210034AB58;
+			remoteInfo = ProxyChat;
+		};
+		C87BB74D1BC927210034AB58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C87BB7251BC927210034AB58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C87BB72C1BC927210034AB58;
+			remoteInfo = ProxyChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C87BB72D1BC927210034AB58 /* ProxyChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProxyChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C87BB7301BC927210034AB58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C87BB7351BC927210034AB58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C87BB7371BC927210034AB58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C87BB73A1BC927210034AB58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C87BB73C1BC927210034AB58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C87BB7411BC927210034AB58 /* ProxyChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProxyChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C87BB7451BC927210034AB58 /* ProxyChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyChatTests.swift; sourceTree = "<group>"; };
+		C87BB7471BC927210034AB58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C87BB74C1BC927210034AB58 /* ProxyChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProxyChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C87BB7501BC927210034AB58 /* ProxyChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyChatUITests.swift; sourceTree = "<group>"; };
+		C87BB7521BC927210034AB58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C87BB75E1BC927AF0034AB58 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+		C87BB7641BC9299F0034AB58 /* MainMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMessageViewController.swift; sourceTree = "<group>"; };
+		C87BB76A1BC943EB0034AB58 /* ALKeyboardObservingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALKeyboardObservingView.swift; sourceTree = "<group>"; };
+		C87BB76B1BC943EB0034AB58 /* ALTextInputBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALTextInputBar.swift; sourceTree = "<group>"; };
+		C87BB76C1BC943EB0034AB58 /* ALTextInputBarDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALTextInputBarDelegate.swift; sourceTree = "<group>"; };
+		C87BB76D1BC943EB0034AB58 /* ALTextInputUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALTextInputUtilities.swift; sourceTree = "<group>"; };
+		C87BB76E1BC943EB0034AB58 /* ALTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALTextView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C87BB72A1BC927210034AB58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87BB75F1BC927AF0034AB58 /* MultipeerConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87BB73E1BC927210034AB58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87BB7491BC927210034AB58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C87BB7241BC927210034AB58 = {
+			isa = PBXGroup;
+			children = (
+				C87BB75E1BC927AF0034AB58 /* MultipeerConnectivity.framework */,
+				C87BB72F1BC927210034AB58 /* ProxyChat */,
+				C87BB7441BC927210034AB58 /* ProxyChatTests */,
+				C87BB74F1BC927210034AB58 /* ProxyChatUITests */,
+				C87BB72E1BC927210034AB58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C87BB72E1BC927210034AB58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C87BB72D1BC927210034AB58 /* ProxyChat.app */,
+				C87BB7411BC927210034AB58 /* ProxyChatTests.xctest */,
+				C87BB74C1BC927210034AB58 /* ProxyChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C87BB72F1BC927210034AB58 /* ProxyChat */ = {
+			isa = PBXGroup;
+			children = (
+				C87BB7301BC927210034AB58 /* AppDelegate.swift */,
+				C87BB7641BC9299F0034AB58 /* MainMessageViewController.swift */,
+				C87BB76A1BC943EB0034AB58 /* ALKeyboardObservingView.swift */,
+				C87BB76B1BC943EB0034AB58 /* ALTextInputBar.swift */,
+				C87BB76C1BC943EB0034AB58 /* ALTextInputBarDelegate.swift */,
+				C87BB76D1BC943EB0034AB58 /* ALTextInputUtilities.swift */,
+				C87BB76E1BC943EB0034AB58 /* ALTextView.swift */,
+				C87BB7341BC927210034AB58 /* Main.storyboard */,
+				C87BB7371BC927210034AB58 /* Assets.xcassets */,
+				C87BB7391BC927210034AB58 /* LaunchScreen.storyboard */,
+				C87BB73C1BC927210034AB58 /* Info.plist */,
+			);
+			path = ProxyChat;
+			sourceTree = "<group>";
+		};
+		C87BB7441BC927210034AB58 /* ProxyChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				C87BB7451BC927210034AB58 /* ProxyChatTests.swift */,
+				C87BB7471BC927210034AB58 /* Info.plist */,
+			);
+			path = ProxyChatTests;
+			sourceTree = "<group>";
+		};
+		C87BB74F1BC927210034AB58 /* ProxyChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C87BB7501BC927210034AB58 /* ProxyChatUITests.swift */,
+				C87BB7521BC927210034AB58 /* Info.plist */,
+			);
+			path = ProxyChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C87BB72C1BC927210034AB58 /* ProxyChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C87BB7551BC927210034AB58 /* Build configuration list for PBXNativeTarget "ProxyChat" */;
+			buildPhases = (
+				C87BB7291BC927210034AB58 /* Sources */,
+				C87BB72A1BC927210034AB58 /* Frameworks */,
+				C87BB72B1BC927210034AB58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProxyChat;
+			productName = ProxyChat;
+			productReference = C87BB72D1BC927210034AB58 /* ProxyChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C87BB7401BC927210034AB58 /* ProxyChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C87BB7581BC927210034AB58 /* Build configuration list for PBXNativeTarget "ProxyChatTests" */;
+			buildPhases = (
+				C87BB73D1BC927210034AB58 /* Sources */,
+				C87BB73E1BC927210034AB58 /* Frameworks */,
+				C87BB73F1BC927210034AB58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C87BB7431BC927210034AB58 /* PBXTargetDependency */,
+			);
+			name = ProxyChatTests;
+			productName = ProxyChatTests;
+			productReference = C87BB7411BC927210034AB58 /* ProxyChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C87BB74B1BC927210034AB58 /* ProxyChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C87BB75B1BC927210034AB58 /* Build configuration list for PBXNativeTarget "ProxyChatUITests" */;
+			buildPhases = (
+				C87BB7481BC927210034AB58 /* Sources */,
+				C87BB7491BC927210034AB58 /* Frameworks */,
+				C87BB74A1BC927210034AB58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C87BB74E1BC927210034AB58 /* PBXTargetDependency */,
+			);
+			name = ProxyChatUITests;
+			productName = ProxyChatUITests;
+			productReference = C87BB74C1BC927210034AB58 /* ProxyChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C87BB7251BC927210034AB58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Wilson Ding";
+				TargetAttributes = {
+					C87BB72C1BC927210034AB58 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = YYZ92V6LND;
+					};
+					C87BB7401BC927210034AB58 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = C87BB72C1BC927210034AB58;
+					};
+					C87BB74B1BC927210034AB58 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = C87BB72C1BC927210034AB58;
+					};
+				};
+			};
+			buildConfigurationList = C87BB7281BC927210034AB58 /* Build configuration list for PBXProject "ProxyChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C87BB7241BC927210034AB58;
+			productRefGroup = C87BB72E1BC927210034AB58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C87BB72C1BC927210034AB58 /* ProxyChat */,
+				C87BB7401BC927210034AB58 /* ProxyChatTests */,
+				C87BB74B1BC927210034AB58 /* ProxyChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C87BB72B1BC927210034AB58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87BB73B1BC927210034AB58 /* LaunchScreen.storyboard in Resources */,
+				C87BB7381BC927210034AB58 /* Assets.xcassets in Resources */,
+				C87BB7361BC927210034AB58 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87BB73F1BC927210034AB58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87BB74A1BC927210034AB58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C87BB7291BC927210034AB58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87BB7311BC927210034AB58 /* AppDelegate.swift in Sources */,
+				C87BB7711BC943EB0034AB58 /* ALTextInputBarDelegate.swift in Sources */,
+				C87BB7651BC9299F0034AB58 /* MainMessageViewController.swift in Sources */,
+				C87BB7701BC943EB0034AB58 /* ALTextInputBar.swift in Sources */,
+				C87BB76F1BC943EB0034AB58 /* ALKeyboardObservingView.swift in Sources */,
+				C87BB7721BC943EB0034AB58 /* ALTextInputUtilities.swift in Sources */,
+				C87BB7731BC943EB0034AB58 /* ALTextView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87BB73D1BC927210034AB58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87BB7461BC927210034AB58 /* ProxyChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87BB7481BC927210034AB58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87BB7511BC927210034AB58 /* ProxyChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C87BB7431BC927210034AB58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C87BB72C1BC927210034AB58 /* ProxyChat */;
+			targetProxy = C87BB7421BC927210034AB58 /* PBXContainerItemProxy */;
+		};
+		C87BB74E1BC927210034AB58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C87BB72C1BC927210034AB58 /* ProxyChat */;
+			targetProxy = C87BB74D1BC927210034AB58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C87BB7341BC927210034AB58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C87BB7351BC927210034AB58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C87BB7391BC927210034AB58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C87BB73A1BC927210034AB58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C87BB7531BC927210034AB58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C87BB7541BC927210034AB58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C87BB7561BC927210034AB58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ProxyChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.wilsonding.ProxyChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		C87BB7571BC927210034AB58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ProxyChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.wilsonding.ProxyChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		C87BB7591BC927210034AB58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ProxyChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.wilsonding.ProxyChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProxyChat.app/ProxyChat";
+			};
+			name = Debug;
+		};
+		C87BB75A1BC927210034AB58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ProxyChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.wilsonding.ProxyChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProxyChat.app/ProxyChat";
+			};
+			name = Release;
+		};
+		C87BB75C1BC927210034AB58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ProxyChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.wilsonding.ProxyChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ProxyChat;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C87BB75D1BC927210034AB58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ProxyChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.wilsonding.ProxyChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ProxyChat;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C87BB7281BC927210034AB58 /* Build configuration list for PBXProject "ProxyChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87BB7531BC927210034AB58 /* Debug */,
+				C87BB7541BC927210034AB58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C87BB7551BC927210034AB58 /* Build configuration list for PBXNativeTarget "ProxyChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87BB7561BC927210034AB58 /* Debug */,
+				C87BB7571BC927210034AB58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C87BB7581BC927210034AB58 /* Build configuration list for PBXNativeTarget "ProxyChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87BB7591BC927210034AB58 /* Debug */,
+				C87BB75A1BC927210034AB58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C87BB75B1BC927210034AB58 /* Build configuration list for PBXNativeTarget "ProxyChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87BB75C1BC927210034AB58 /* Debug */,
+				C87BB75D1BC927210034AB58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C87BB7251BC927210034AB58 /* Project object */;
+}
